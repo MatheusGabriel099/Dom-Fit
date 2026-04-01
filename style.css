@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.cabecalho {
+    background-color: #feff00;
+    color: white;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.div-logo {
+    width: 20%;
+}
