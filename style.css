@@ -10,7 +10,7 @@
 }
 
 .cabecalho {
-    background-color: #8d8d00;
+    background-color: #f3f300;
     color: white;
     padding: 1.5rem;
     display: flex;
@@ -78,4 +78,29 @@
     position: center;
 }
 
-.sec
+.ul-div01 li a {
+    text-decoration: none;
+    background-color: #000000;
+    color: white;
+    padding: 5px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    
+}
+
+.div-img {
+    padding: 3%;
+    background-image: url(imagem/textura3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 5rem;
+    background-color: #000000;
+    flex-wrap: wrap;
+}
