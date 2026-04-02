@@ -95,6 +95,18 @@
     background-size: cover;
 }
 
+.caixa {
+    width: 25%;
+    height: 20rem;
+    background-color: #ffff69;
+    min-width: 299px;
+    font-size: 1.2rem;
+    color: black;
+    box-shadow: 10px 10px 20px #8a8a00;
+    cursor: pointer;
+    font-weight: 600;
+}
+
 .section-02 {
     display: flex;
     justify-content: center;
