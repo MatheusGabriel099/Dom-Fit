@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: Amarante;
 }
 
 .cabecalho {
-    background-color: #feff00;
+    background-color: #8d8d00;
     color: white;
     padding: 1.5rem;
     display: flex;
@@ -20,6 +23,59 @@
     z-index: 999;
 }
 
-.div-logo {
+.div-logo img {
     width: 20%;
 }
+
+.div-button a button {
+    width: 5rem;
+    padding: 0.5rem;
+    background-color: black;
+    border: none;
+    font-weight: 700;
+    color: white;
+    border-radius: 10px;
+}
+
+.section-01 {
+    padding: 9rem;
+    background-image: url(imagem/fundo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.div-01 {
+    background-color: #ffff69;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding: 1rem;
+    width: 25%;
+    height: 20rem;
+    min-width: 299px;
+}
+
+.div-01 p {
+    margin-top: 1rem;
+}
+
+.span {
+    color: chocolate;
+}
+
+.div-02 {
+    padding: 1rem;
+    width: 25%;
+    min-width: 299px;
+    position: center;
+}
+
+.sec
