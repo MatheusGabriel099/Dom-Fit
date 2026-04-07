@@ -9,8 +9,27 @@
     font-family: Amarante;
 }
 
+.whatsapp img {
+    width: 40px;
+}
+
+/*div que guarda o icon whatsapp*/
+.whatsapp {
+    position: fixed;
+    /*posicionamento fixo*/
+    right: 25px;
+    /*posicionamento á direita 25px*/
+    bottom: 40px;
+    /*posicionamento a 25 px bottom*/
+}
+
+.whatsapp:hover {
+    width: 60px;
+    transition: 0.8s;
+}
+
 .cabecalho {
-    background-color: #f3f300;
+    background-color: #FFCC00;
     color: white;
     padding: 1.5rem;
     display: flex;
@@ -85,7 +104,7 @@
     padding: 5px;
     font-size: 1.3rem;
     border-radius: 10px;
-    
+
 }
 
 .div-img {
@@ -115,4 +134,77 @@
     padding: 5rem;
     background-color: #000000;
     flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+.section-03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 5rem;
+    background-image: url(imagem/Academia\ DOM\ FIT\ com\ iluminação\ dourada.png);
+    background-position: center;
+    flex-wrap: wrap;
+}
+
+.div03,.div04{
+    height: 20rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.contet-text {
+    text-align: start;
+    margin-top: 1rem;
+}
+
+.text-div04 p {
+    color: rgb(0, 0, 0);
+    font-weight: 600px;
+    margin-top: 1rem;
+}
+
+.icon-div03 {
+    font-size: 200%;
+    /*cores dos icon*/
+ color: #ffff00;color: #FFCC00;    /*tamanho dos icon*/
+    margin-top: 0rem;
+    /*espaçamento superior dos icon*/
+}
+
+
+
+.div04 button {
+
+    padding: 0.2rem;
+    /*tamanho do botao*/
+    width: 50%;
+    background-color: #FFCC00;
+    /*cor do botão*/
+    color: white;
+    /*cor a fonte*/
+    font-weight: 700px;
+    /*peso da fonte*/
+    font-size: 20px;
+    margin: 1rem 0;
+    /*dando espaçamento*/
+    border: none;
+    /*tirando a borda*/
+    border-radius: 10px;
+    /*arredondamento da borda*/
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.div04 button:hover {
+    width: 55%;
+    background-color: #FFCC00;
 }
