@@ -271,9 +271,46 @@
     background-color: #FFCC00;
 }
 
+
 .div-06 {
     background-image: url(imagem/Academia\ DOM\ FIT\ com\ iluminação\ dourada.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: ;
 }
+
+
+.rodape {
+     background-color:#000000;
+    /*cor de fundo*/
+    padding: 2rem;
+    /*32px*/
+    text-align: center;
+    /*alinhando ao centro*/
+    font-size: 1.1rem;
+    /*tamanho da fonte*/
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+/*espaçamento das div q guarda os icon*/
+.social-midia {
+    padding: 1.5rem;
+}
+
+
+/*estilizando os icons*/
+.social-midia i {
+  color: #FFCC00;
+    /*cor dos icons*/
+    font-size: 2em;
+    /*32px tamanho dos icons*/
+    margin: 0.5em;
+    /*espacamento em volta dos icons */
+}
+
