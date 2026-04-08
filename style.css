@@ -82,6 +82,10 @@
     min-width: 299px;
 }
 
+.div-01 a {
+    margin-bottom: 1rem;
+}
+
 .div-01 p {
     margin-top: 1rem;
 }
@@ -126,7 +130,18 @@
     font-weight: 600;
 }
 
-.section-02 {
+.caixa:hover {
+    box-shadow: 10px 10px 20px #e9e901;
+    transition: 0.8s;
+}
+
+.caixa img {
+    width: 100%;
+    height: 50%;
+}
+
+.section-02,
+.section-04 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,6 +151,45 @@
     flex-wrap: wrap;
 }
 
+.produto-01 h3 {
+    font-size: 20px;
+    margin: 0.5rem;
+    margin-left: 0.7rem;
+}
+
+.produto-01 p {
+    margin: 0.5rem;
+    margin-left: 0.7rem
+}
+
+.produto-01 button {
+    padding: 0.3rem;
+    margin-left: 0.7rem;
+    border: none;
+    border-radius: 7px;
+    background-color: #000000;
+    color: white;
+}
+
+.produto-02 h3 {
+    font-size: 20px;
+    margin: 0.5rem;
+    margin-left: 0.7rem;
+}
+
+.produto-02 p {
+    margin: 0.5rem;
+    margin-left: 0.7rem;
+}
+
+.produto-02 button {
+    padding: 0.3rem;
+    margin-left: 0.7rem;
+    border: none;
+    border-radius: 7px;
+    background-color: #000000;
+    color: white;
+}
 
 
 
@@ -153,7 +207,8 @@
     flex-wrap: wrap;
 }
 
-.div03,.div04{
+.div03,
+.div04 {
     height: 20rem;
     padding: 2rem;
     text-align: center;
@@ -172,16 +227,24 @@
 
 .icon-div03 {
     font-size: 200%;
-    /*cores dos icon*/
- color: #ffff00;color: #FFCC00;    /*tamanho dos icon*/
+    /*tamanho dos icon*/
     margin-top: 0rem;
     /*espaçamento superior dos icon*/
 }
 
+.fa-twitter {
+    color: #000000;
+}
 
+.fa-tiktok {
+    color: purple;
+}
+
+.fa-instagram {
+    color: #c02b1a;
+}
 
 .div04 button {
-
     padding: 0.2rem;
     /*tamanho do botao*/
     width: 50%;
@@ -201,10 +264,16 @@
     text-decoration: none;
     display: block;
     margin: 0 auto;
-
 }
 
 .div04 button:hover {
     width: 55%;
     background-color: #FFCC00;
+}
+
+.div-06 {
+    background-image: url(imagem/Academia\ DOM\ FIT\ com\ iluminação\ dourada.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: ;
 }
