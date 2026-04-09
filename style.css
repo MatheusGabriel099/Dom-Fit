@@ -191,11 +191,6 @@
     color: white;
 }
 
-
-
-
-
-
 .section-03 {
     display: flex;
     justify-content: center;
@@ -296,6 +291,7 @@
     justify-content: center;
     gap: 3rem;
     flex-wrap: wrap;
+    margin-bottom: 1.5rem;
 }
 
 /*espaçamento das div q guarda os icon*/
@@ -314,3 +310,8 @@
     /*espacamento em volta dos icons */
 }
 
+
+.social-midia i:hover {
+   font-size: 2.5rem;
+   transition: 0.8s;
+}
