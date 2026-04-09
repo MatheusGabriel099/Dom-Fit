@@ -268,9 +268,29 @@
 
 
 .div-06 {
-    background-image: url(imagem/Academia\ DOM\ FIT\ com\ iluminação\ dourada.png);
+    background-image: url(imagem/logo.png);
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.div-05 h3 {
+    text-align: center;
+    margin-top: 0.7rem;
+}
+
+.div-05 p {
+    text-align: center;
+    margin-top: 0.7rem;
+}
+
+.div-07 h3 {
+    text-align: center;
+    margin-top: 0.7rem;
+}
+
+.div-07 p {
+    text-align: center;
+    margin-top: 0.7rem;
 }
 
 
