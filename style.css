@@ -23,7 +23,7 @@
     /*posicionamento a 25 px bottom*/
 }
 
-.whatsapp:hover {
+.whatsapp img:hover {
     width: 60px;
     transition: 0.8s;
 }
@@ -131,7 +131,7 @@
 }
 
 .caixa:hover {
-    box-shadow: 10px 10px 20px #e9e901;
+    box-shadow: 10px 10px 20px #d8d801;
     transition: 0.8s;
 }
 
@@ -271,6 +271,7 @@
     background-image: url(imagem/logo.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .div-05 h3 {
@@ -294,22 +295,23 @@
 }
 
 .rodape {
-     background-color:#c29b00;
-    /*cor de fundo*/
+    background-color: #c29b00;
     padding: 2rem;
-    /*32px*/
     text-align: center;
-    /*alinhando ao centro*/
     font-size: 1.1rem;
-    /*tamanho da fonte*/
 }
 
-.content{
+.content {
     display: flex;
+    /*flexbox / lado a lado*/
     align-items: center;
+    /*alinhamento vertical*/
     justify-content: center;
+    /*alinhamento horizontal*/
     gap: 3rem;
+    /*espaçamento dos elementos*/
     flex-wrap: wrap;
+    /*quabre de caixas*/
     margin-bottom: 1.5rem;
 }
 
@@ -327,8 +329,8 @@
 }
 
 .social-midia i:hover {
-   font-size: 2.5rem;
-   transition: 0.8s;
+    font-size: 2.5rem;
+    transition: 0.8s;
 }
 
 .fa-square-facebook {
@@ -338,10 +340,16 @@
 .line {
     width: 60%;
     margin: 0.5rem auto;
+    background-color: black;
+    /*cor de fundodo hr*/
+    border: none;
+    /*remover as bordas por padrão*/
+    height: 2px;
+    /*definir altura a linha*/
 }
 
 .div-list ul li a {
-    color: #55A;
+    color: #551A8B;
     text-decoration: none;
     font-weight: 600;
 }
@@ -351,5 +359,7 @@
 }
 
 .div-list ul li a:hover {
-
+    color: #7925c7;
+    transition: 0.7s;
 }
+
