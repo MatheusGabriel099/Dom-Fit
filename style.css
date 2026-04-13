@@ -133,6 +133,7 @@
 .caixa:hover {
     box-shadow: 10px 10px 20px #d8d801;
     transition: 0.8s;
+    width: 27%;
 }
 
 .caixa img {
