@@ -82,8 +82,11 @@
     min-width: 299px;
 }
 
+.ul-div01
+
 .div-01 a {
     margin-bottom: 1rem;
+    margin: 0.5rem;
 }
 
 .div-01 p {
@@ -108,7 +111,10 @@
     padding: 5px;
     font-size: 1.3rem;
     border-radius: 10px;
+}
 
+.ul-div01 li {
+    margin-top: 0.5rem;
 }
 
 .div-img {
