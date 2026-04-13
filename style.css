@@ -160,12 +160,12 @@
 
 .produto-01 h3 {
     font-size: 20px;
-    margin: 0.5rem;
+    margin: 0.4rem;
     margin-left: 0.7rem;
 }
 
 .produto-01 p {
-    margin: 0.5rem;
+    margin: 0.4rem;
     margin-left: 0.7rem
 }
 
@@ -183,17 +183,16 @@
     height: 58%;
     object-fit: contain;
     object-position: center;
-    
 }
 
 .produto-02 h3 {
     font-size: 20px;
-    margin: 0.5rem;
+    margin: 0.4rem;
     margin-left: 0.7rem;
 }
 
 .produto-02 p {
-    margin: 0.5rem;
+    margin: 0.4rem;
     margin-left: 0.7rem;
 }
 
