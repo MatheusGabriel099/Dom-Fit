@@ -151,6 +151,13 @@
     flex-wrap: wrap;
 }
 
+.produto-01 img {
+    width: 100%;
+    height: 51%;
+    object-fit: contain;
+    object-position: center;
+}
+
 .produto-01 h3 {
     font-size: 20px;
     margin: 0.5rem;
@@ -169,6 +176,14 @@
     border-radius: 7px;
     background-color: #000000;
     color: white;
+}
+
+.produto-02 img {
+    width: 100%;
+    height: 58%;
+    object-fit: contain;
+    object-position: center;
+    
 }
 
 .produto-02 h3 {
