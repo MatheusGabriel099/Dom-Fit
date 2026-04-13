@@ -29,7 +29,7 @@
 }
 
 .cabecalho {
-    background-color: #FFCC00;
+    background-color: #e6b800;
     color: white;
     padding: 1.5rem;
     display: flex;
@@ -295,7 +295,7 @@
 }
 
 .rodape {
-    background-color: #c29b00;
+    background-color: #e6b800;
     padding: 2rem;
     text-align: center;
     font-size: 1.1rem;
