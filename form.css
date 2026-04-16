@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #171430, white);
+    background: linear-gradient(135deg,  #e6b800c5, rgb(56, 52, 52));
 }
 
 .google-btn img {
