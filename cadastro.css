@@ -6,52 +6,121 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg,  #e6b800c5, rgb(56, 52, 52));
+    background: linear-gradient(135deg, #e6b800c5, rgb(56, 52, 52));
 }
 
-.div-cadastro {
-    background-color: #ffcc0169;
-    padding: 5rem;
-    border-radius: 15px;
-    width: 100%;
-    max-width: 400px;
-    box-sizing: 0 10px 25px black;
-}
-
-.cadastro-form {
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 900px;
     background-color: white;
-    border-radius: 15px;
-    padding: 5rem;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-.cadastro-form h2 {
+.div-esquerda {
+    width: 50%;
+    background-color: #e6b800c5;
+    color: black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-esquerda h1 {
+    margin-bottom: 10px;
     text-align: center;
 }
 
-.input-group {
+.div-esquerda p {
+    line-height: 1.5;
+}
+
+.div-direita {
+    width: 50%;
+    padding: 30px;
+}
+
+.div-direita h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #171430;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.dados {
+    display: flex;
+    gap: 10px;
+}
+
+.dados,
+.form-group {
+    width: 80%;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #171430;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.7s;
     margin-bottom: 1rem;
 }
 
-.input-group label {
-    display: block;
-    margin-bottom: 5px;
-    color: #555;
+.btn:hover {
+    background-color: #cacacd;
+    color: #171430;
 }
 
-.input-group input {
-    width: 100%;
-    padding: 10px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    outline: none;
-    transition: 0.3s;
+.links {
+    text-align: center;
+    text-decoration: none;
 }
 
-.input-group input:focus {
-    border-color: #171430;
-    box-shadow: 0 0 5px #555;
+.links a {
+    color: #171430;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+
+    .div-esquerda,
+    .div-direita {
+        width: 100%;
+    }
+
+    .dados {
+        flex-direction: column;
+    }
+
+    .dados,
+    .form-group {
+        width: 100%;
+    }
 }

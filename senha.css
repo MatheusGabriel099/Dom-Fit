@@ -89,7 +89,8 @@ body {
 
 .links a {
     text-decoration: none;
-    color: #1900ff;
+    color: black;
+    list-style: none;
 }
 
 .links a:hover {
@@ -106,11 +107,12 @@ body {
     font-size: 1rem;
     cursor: pointer;
     transition: 0.3rem;
+    margin-bottom: 1rem;
 }
 
 .btn-recuperar:hover {
     background-color: #ffffff;
-    color: #e6b800c5;
+    color: black;
 }
 
 

@@ -11,41 +11,51 @@
 
 <body>
     <main>
-        <div class="div-cadastro">
-            <h2>Cadastre-se Aqui!</h2>
-            <p>Não fique de fora! Cadastre-se e aproveite todas as nossas novidades.</p>
-        </div>
+        <div class="container">
+            <div class="div-esquerda">
+                <h1>Crie sua Conta</h1>
+                <p>Cadastre-se para acessar nossa plataforma e aproveitar todos os recursos disponíveis.</p>
+            </div>
 
-        <div class="cadastro-form">
-            <h2>Cadastre-se</h2>
-            <form action="">
-                <div class="input-group">
-                    <label for="Nome">Nome</label>
-                    <input type="text" placeholder="Digite seu Nome" required>
-                </div>
+            <div class="div-direita">
+                <h2>Cadastro</h2>
 
-                <div class="input-group">
-                    <label for="Sobrenome">Sobrenome</label>
-                    <input type="text" placeholder="Digite seu Sobrenome" required>
-                </div>
+                <form action="">
+                    <div class="dados">
+                       <div class="form-group">
+                        <input type="text" placeholder="Nome" required>
+                       </div>
 
-                <div class="input-group">
-                    <label for="E-mail">E-mail</label>
-                    <input type="email" placeholder="Digite seu E-mail">
-                </div>
+                       <div class="form-group">
+                           <input type="text" placeholder="Sobrenome" required>
+                       </div>
+                    </div>
 
-                <div class="input-group">
-                    <label for="Senha">Senha</label>
-                    <input type="password" placeholder="Digite sua Senha">
-                    <input type="password" placeholder="Corfime sua Senha">
-                </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="E-mail" required>
+                    </div>
 
-                <input type="submit" class="bnt" value="Criar Conta">
-                <div class="cadastro-link">
-                    <a href="form.html">Já tenho uma Conta</a>
+                    <div class="form-group">
+                        <input type="text" placeholder="Usuário" required>
+                    </div>
+
+                    <div class="dados">
+                        <div class="form-group">
+                            <input type="password" placeholder="Senha" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" placeholder="Corfirmar senha" required>
+                        </div>
+                    </div>
+
+                    <button class="btn">Criar conta</button>
+                </form>
+
+                <div class="links">
+                    <a href="form.html">Já tenho uma conta</a>
                 </div>
-            
-            </form>
+            </div>
         </div>
     </main>
 </body>
