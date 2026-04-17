@@ -86,8 +86,9 @@ h2 {
 }
 
 .btn:hover {
-    background-color: #bbb7e1;
-    color: #171430;
+    background-color: white;
+    color: black;
+    transition: 0.8s;
 }
 
 .google-btn {

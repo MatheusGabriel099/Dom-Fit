@@ -113,6 +113,7 @@ body {
 .btn-recuperar:hover {
     background-color: #ffffff;
     color: black;
+    transition: 0.8s;
 }
 
 
